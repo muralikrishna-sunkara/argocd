@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: ecom-application
-  namespace: e-commerce-website
+  namespace: argocd
 spec:
   project: default
 
